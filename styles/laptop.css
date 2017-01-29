@@ -1,0 +1,41 @@
+h1{
+    font: 30px arial, sans-serif;
+}
+
+*{
+    background-color: rgb(183, 200, 196)
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0px 0px 25px 0px;
+
+}
+
+li {
+    
+    display: inline-block;
+    float: left;
+    
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+    
+}
+
+li a {
+    display: inline;
+    padding: 20px;
+    background-color: #dddddd;
+    font-size: 25px;
+    text-decoration: none;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
