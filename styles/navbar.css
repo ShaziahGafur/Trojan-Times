@@ -1,0 +1,49 @@
+section {
+    background-image: url("https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiIyqqy4pDSAhWn24MKHZcPD4QQjRwIBw&url=http%3A%2F%2Fwww.lifter.ca%2Fcanadian-seo%2F&psig=AFQjCNHDwpA_P_QCc4Fs5qMHZEEDMQe2JA&ust=1487202286881694");
+}
+
+li{
+    display: inline;
+    margin: 0px;
+    list-style-type: none;
+
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link{
+    padding: 0px, 30px, 0px, 30px;
+    text-decoration: none;
+}
+
+
+article, section{
+    padding: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.portion{
+    border: 3px solid green;
+}
+
+.whole{
+    margin-top: 100px;
+}
+
+.hi{
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34.5%;
+}
+
+.yoyo
+{
+margin-top: 50px;
+}
+
