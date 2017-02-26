@@ -1,49 +1,138 @@
-section {
-    background-image: url("https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiIyqqy4pDSAhWn24MKHZcPD4QQjRwIBw&url=http%3A%2F%2Fwww.lifter.ca%2Fcanadian-seo%2F&psig=AFQjCNHDwpA_P_QCc4Fs5qMHZEEDMQe2JA&ust=1487202286881694");
-}
-
-li{
+nav li{
     display: inline;
     margin: 0px;
     list-style-type: none;
 
 } 
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
 a:link{
-    padding: 0px, 30px, 0px, 30px;
     text-decoration: none;
 }
 
+aside{
+    width: 20%;
+    float: right;
+    background-color: peru;
+  height: 900px;
+}
 
-article, section{
-    padding: 100px;
+.not-aside{
+    width: 80%;
+	float: left;
+}
+
+.inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  border: #999999 1px solid;
+		/*  min-height: 60px;*/
+		  }
+
+.inner-right	  {
+		  font-size: 11px;
+		  padding: 5px 5px 5px 5px;
+		 /* border: #999999 1px solid;*/
+	/*	  min-height: 60px; */
+		  }
+
+aside a:hover{
+    text-decoration: underline;
+}
+
+article, section{ /*fix this*/
+  padding: 0px; 
+    text-align: center;
     display: inline-block;
+}
+
+.clear-floated{ 
+    width: 100%;
+    clear: both; 
+    height: 1px; 
+     font-size: 10px; 
+     line-height: 1px; 
+     padding-top: 20px; 
+}
+
+.top-section{
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.tiers{
+    width: 100%;
+}
+ .miniarticle article{
+  /*   margin-right: auto;
+     margin-left: auto;*/
+     background-color: cornflowerblue;
+     width:33%;
+     padding: 0px, 50px 0px;
+
+ }
+
+.moitie{
+    width: 100%;
+    margin-top: 50px;
+}
+ .moitie article{
+     background-color: lightcoral;
+     width: 49.7%;
+
+ }
+
+ article h2,article h3{
+     margin: 15px 30px 30px 30px;
+     background-color: ghostwhite;
+
+ }
+
+ article h2{
+     padding: 15px 10px 15px;
+     
+ }
+
+ article h3{
+     padding: 15px 10px 15px;
+     
+ }
+
+ body > header{
+     display: inline;
+
+ }
+ 
+ .site-title{
+     text-align: center;
+ }
+
+ .top-redirection{
+     float: right;
+     margin-right: 50px;
+ }
+
+header > h1{
+    font-size: 60px;
+    font-weight: normal;
     text-align: center;
 }
 
-.portion{
-    border: 3px solid green;
+header> h2{
+    text-align: right;
+    font-style: italic;
 }
 
-.whole{
-    margin-top: 100px;
+.icon{
+    position: absolute;
 }
 
-.hi{
-    background: red;
-    margin-left: auto;
-    margin-right: auto;
-    width: 34.5%;
-}
-
-.yoyo
-{
-margin-top: 50px;
+header{
+    text-align: center;
+    position: relative;
 }
 
