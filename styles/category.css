@@ -1,0 +1,99 @@
+/*figure{
+    display: inline;
+}
+
+article{
+    margin-left: 100px;
+}
+
+.text{
+    float: left;
+}
+/*
+.text{
+    width: 20%;
+    float: right;
+    background-color: lightblue;
+  height: 900px;
+  display:none;
+}
+
+figure{
+	float: left;
+}
+
+figure{
+    width: 40%;
+    float: left;
+}
+
+article{
+    display: inline-block;
+}
+
+aside a:hover{
+    text-decoration: underline;
+}
+
+    .inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  border: #999999 1px solid;
+		  min-height: 60px;
+		  }
+
+.inner-right	  {
+		  font-size: 11px;
+		  padding: 5px 5px 5px 5px;
+		 /* border: #999999 1px solid;
+	/*	  min-height: 60px; 
+		  }
+    aside{
+        display: none; /* just for now
+    }
+
+
+    */
+
+    figure> img{
+        width: 40%;
+    }
+/*
+    .text{
+        float: left;
+        background: cadetblue;
+        width: 60%;
+    }*/
+    
+.text{
+    width: 60%;
+    float: right;
+    background-color:lightblue;
+    height: inherit;
+    vertical-align: middle;
+  vertical-align: middle;
+
+    
+}
+
+.not-aside{
+    width: 40%;
+	float: left;
+    padding: 0px;
+    margin-left: 0px;
+    background: palevioletred;
+    height: inherit;
+}
+
+    article{
+        display: inline-block;
+        height:500px;
+        margin-bottom: 100px;
+    }
+    .text > h2{
+margin-top: 150px;
+    }
+
+    .text > h2, .text > h3{ 
+    text-align: center; 
+    margin-left:15px; 
+    }
