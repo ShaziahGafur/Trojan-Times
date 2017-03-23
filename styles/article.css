@@ -1,0 +1,28 @@
+aside{
+    float: left;
+    width: 25%;
+    background: yellow;
+}
+
+.article{
+    float: left;
+    width: 50%;
+    background: red;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.general{
+    float: left;
+    width: 15%;
+    background: green;
+}
+
+.content{
+    display: inline-block;
+    width: 100%;
+    background: purple;
+}
+
+div img{
+    width: 100%;
+}

@@ -1,99 +1,78 @@
-/*figure{
-    display: inline;
-}
-
-article{
-    margin-left: 100px;
-}
-
-.text{
+aside{
     float: left;
-}
-/*
-.text{
-    width: 20%;
-    float: right;
-    background-color: lightblue;
-  height: 900px;
-  display:none;
+    width: 30%;
+    background: yellow;
 }
 
-figure{
-	float: left;
-}
-
-figure{
-    width: 40%;
+.articles{
     float: left;
-}
-
-article{
-    display: inline-block;
-}
-
-aside a:hover{
-    text-decoration: underline;
-}
-
-    .inner-left	  {
-		  padding: 5px 5px 5px 5px;
-		  border: #999999 1px solid;
-		  min-height: 60px;
-		  }
-
-.inner-right	  {
-		  font-size: 11px;
-		  padding: 5px 5px 5px 5px;
-		 /* border: #999999 1px solid;
-	/*	  min-height: 60px; 
-		  }
-    aside{
-        display: none; /* just for now
-    }
-
-
-    */
-
-    figure> img{
-        width: 40%;
-    }
-/*
-    .text{
-        float: left;
-        background: cadetblue;
-        width: 60%;
-    }*/
-    
-.text{
-    width: 60%;
-    float: right;
-    background-color:lightblue;
-    height: inherit;
-    vertical-align: middle;
-  vertical-align: middle;
-
-    
+    width: 70%;
+    background: red;
 }
 
 .not-aside{
-    width: 40%;
-	float: left;
-    padding: 0px;
-    margin-left: 0px;
-    background: palevioletred;
-    height: inherit;
+    padding-bottom: 75px;
+}
+.content{
+    display: inline-block;
+    width: 100%;
+    background: purple;
 }
 
-    article{
-        display: inline-block;
-        height:500px;
-        margin-bottom: 100px;
-    }
-    .text > h2{
-margin-top: 150px;
-    }
+.left{
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+}
+.right{
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+}
 
-    .text > h2, .text > h3{ 
-    text-align: center; 
-    margin-left:15px; 
-    }
+.content h2{
+    padding: 30px 15px 30px 15px;
+}
+
+.content h1{
+    margin-left: 15px;
+}
+
+article{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.not-aside{
+	float: left;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+#current{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.not-aside:last-child{
+    padding-bottom: 0px;
+}
+
+.content{
+    padding: 0px;
+    margin-bottom: -10px;
+}
