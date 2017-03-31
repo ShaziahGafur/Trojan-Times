@@ -10,6 +10,9 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Fanwood+Text|Roboto+Condensed');
+</style> 
       <style type="text/css">
          @font-face{
          font-family: "Goldoni";
@@ -18,13 +21,37 @@
          header> h1{
          font-family: "Goldoni";
          }
+
+         @font-face{
+         font-family: "Neou";
+         src: url('Neou-Bold.otf');
+         }
+         .general h2{
+         font-family: "Neou" !important;
+         }
+
+          @font-face{
+         font-family: "Neou2";
+         src: url('Neou-Thin.otf');
+         }
+         .general h3{
+         font-family: "Neou2" !important;
+         }
       </style>
    </head>
    <body>
+       <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+           <div class="upper-section">
       <header class="site-header" id="top">
          <img src="images/icon.jpg" width="128px" class="icon"/>
          <h1 class="site-title">Trojan Times</h1>
-         <h2>The official newspaper of Turner Fenton S.S.</h2>
       </header>
       <nav>
          <ul>
@@ -37,20 +64,19 @@
             <li><a href="#contact">Contact Us</a></li>
          </ul>
       </nav>
+           </div>
       <div class="content">
          <div class ="general">   
-            <ul>
-                <li>Facebook share</li>
-                <li>Twitter tweet</li>
-            </ul>
-            <h3>Byline</h3>
-            <h4>Date and Time posted</h4>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+        
+            <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
          </div>
          <div class ="article">  
              <h1>Headline</h1>
              <h2>Subheadline</h2> 
 <img src="images/Stich.jpg"/>
-<caption>Hey! Look at this picture above!</caption>
+<section>Hey! Look at this picture above!</section>
 <p>The number of EU nationals registering as nurses in England has dropped by 92% since the Brexit referendum in June, and a record number are quitting the NHS, it can be revealed.
 
 The shock figures have prompted warnings that Theresa May’s failure to offer assurances to foreigners living in the UK is exacerbating a staffing crisis in the health service.
@@ -87,13 +113,10 @@ Joan Pons Laplana, a Spanish national and a senior nurse at the James Paget Hosp
          </div>
          <aside>
             <div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
+                <header>Related Posts</header>
+               <div><a href="https://example.com/">Dating Diaries: It was very clear that he had an agenda</a></div>
+               <div><a href="https://example.com/">Fights erupt at pro-Donald Trump rally on California beach</a></div>
+               <div><a href="https://example.com/">Marine Le Pen and Emmanuel Macron face off for the soul of France</a></div>
             </div>
          </aside>
       </div>

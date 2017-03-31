@@ -1,22 +1,51 @@
 aside{
     float: left;
     width: 30%;
-    background: yellow;
+    margin-left: -5px;
+
+
 }
 
 .articles{
     float: left;
     width: 70%;
-    background: red;
 }
 
 .not-aside{
     padding-bottom: 75px;
+        background: white;
 }
+.articles{
+border-right: 2px solid rgb(200, 200, 200) ;
+}
+
+.author{
+    text-align: right;
+}
+
+.des{
+    font-family: Corbel !important;
+}
+
+aside header, aside div, aside p, aside span, aside img{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+aside header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: Cambria Math;
+        border-bottom: 2px solid rgb(18, 67, 107) ;
+}
+
+
 .content{
     display: inline-block;
     width: 100%;
-    background: purple;
+    background: white;
 }
 
 .left{
@@ -28,20 +57,51 @@ aside{
     width: 50%;
     float: left;
     margin-left: 15px;
-    text-align: center;
+}
+
+.right h2{
+color: rgb(50, 50, 50);
+}
+
+.right h3{
+    text-align: left;
+    font-size: 15px;
+    }
+.right article{
+    font-family: Corbel;
+    
 }
 
 .content h2{
-    padding: 30px 15px 30px 15px;
+font-size: 20px;
+padding-top: 20px;
 }
 
-.content h1{
-    margin-left: 15px;
+
+.not-aside h1{
+font-family: 'Francois One', sans-serif;
+    text-align: left;
+    margin:0px;
+}
+
+aside > div{
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.first-art{
+    padding-top: 40px;
+}
+
+.right h3{
+    color: rgb( 125, 125, 125);
 }
 
 article{
     padding-bottom: 30px;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     text-align: left;
     font-size: 20px;
 }
@@ -60,6 +120,8 @@ a{
 #current{
     font-size: 2rem;
     text-align: center;
+    display: block;
+    padding-top: 20px;
 }
 
 .quote{
@@ -75,4 +137,22 @@ a{
 .content{
     padding: 0px;
     margin-bottom: -10px;
+}
+
+.yo{
+    align-content: right;
+    border-bottom: 2px solid rgb(155, 204, 240) ;
+    border-top: 2px solid rgb(18, 67, 107);
+    font-style: italic;
+
+}
+
+mark{
+    background: transparent; /*for now*/
+}
+
+.cat{
+    text-align: left;
+    font-size: 50px;
+    margin-left: 10px;
 }

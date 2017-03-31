@@ -2,25 +2,33 @@
 nav li{
     display: inline-block;
     margin: 0px;
+    padding-top: 10px;
+     padding-bottom: 10px;
     list-style-type: none;
-    padding: 20px;
+    background: rgb(18, 67, 107);
 
 } 
 
 nav li a{
-    padding: inherit;
     color: white;
+    padding: 20px;
+    margin: 0px
 }
 
 nav ul {
     list-style-type: none;
-    background-color: rgb(20, 70, 154);
     display: inline-block;
     padding: 0px;
+        background: rgb(210, 210, 210);
+font-family: 'Fanwood Text', serif !important;
+        font-size: 16px;
+
+    
 }
 nav { 
     margin: 0 auto; 
     text-align: center;
+
 }
 
 nav a:link{
@@ -48,6 +56,10 @@ nav a:hover{
  
  .site-title{
      text-align: center;
+     color: /*rgb(183, 224, 236)*/rgb(210, 210, 210);
+     font-size: 70px;
+    
+    
  }
 
  .top-redirection{
@@ -79,7 +91,7 @@ header{
 
 footer{ 
    /* display: inline-block;*/
-    background-color:rgb(20, 20, 20);
+   background-color:rgb(18, 67, 107);
    width: 100vw;
     width: 100%;
    /* position: absolute;
@@ -156,4 +168,19 @@ footer h2{
    font-size: 30px;
    margin-top: -15px;
    text-align: center;
+}
+
+footer a{
+    
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.upper-section{
+    background-color: rgb(18, 67, 107);
+}
+
+body{
+    margin:0;
 }

@@ -10,31 +10,62 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Fanwood+Text');
+</style>    
       <style type="text/css">
          @font-face{
          font-family: "Goldoni";
          src: url('Goldoni.otf');
          }
-         header> h1{
-         font-family: "Goldoni";
+         header> h1, .cat{
+         font-family: "Goldoni" !important;
          }
+
+         @font-face{
+         font-family: "Neou";
+         src: url('Neou-Bold.otf');
+         }
+         .right h2{
+         font-family: "Neou" !important;
+         }
+
+          @font-face{
+         font-family: "Neou2";
+         src: url('Neou-Thin.otf');
+         }
+         .right h3{
+         font-family: "Neou2" !important;
+         }
+
+         
+
       </style>
       <script>
 function startTime() {
+    var monthNames = [ "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December" ];
+    var days = [ "Sunday", "Monday", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December" ];
+
     var today = new Date();
     var h = today.getHours();
     if (h>12)
     	h-=12;
+    else if (h==0)
+        h=12;
     var mi = today.getMinutes();
     mi = checkTime(mi);
 
     n =  new Date();
 y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
+m = monthNames[n.getMonth() + 1];
+hi=today.getDay();
 
+d = n.getDate();
+hello=days[hi];
     
-    document.getElementById('date').innerHTML =m + "/" + d + "/" + y;
+    document.getElementById('date').innerHTML = hello+" " + m + " " +d+", "+ y;
     document.getElementById('current').innerHTML =h + ":" + mi;
 
     var t = setTimeout(startTime, 500);
@@ -48,10 +79,12 @@ function checkTime(i) {
     </script>
    </head>
    <body onload="startTime()">
+           <div class="upper-section">
+
       <header class="site-header" id="top">
          <img src="images/icon.jpg" width="128px" class="icon"/>
          <h1 class="site-title">Trojan Times</h1>
-         <h2>The official newspaper of Turner Fenton S.S.</h2>
+         
       </header>
       <nav>
          <ul>
@@ -64,105 +97,109 @@ function checkTime(i) {
             <li><a href="#contact">Contact Us</a></li>
          </ul>
       </nav>
+           </div>
       <div class="content">
           <div class="articles">
-         <div class ="not-aside">
+              <header class="cat">Lifestyle</header>
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
-         <div class ="not-aside">
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
-         <div class ="not-aside">
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
-         <div class ="not-aside">
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
-         <div class ="not-aside">
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
-         <div class ="not-aside">
+         <div class ="not-aside first-art">
              <a href="article.html">
-            <h1>Title</h1>
             <div class=left>
                <img src="images/Stich.jpg" width="100%">
             </div>
             <div class="right">
-               <h2>Byline</h2>
-               <h3>Time</h3>
-               <article> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit pariatur.</article>
+                <h1>NDP bill would allow unmarried parents to seek support for disabled adult children</h1>
+               <h2>By: Cookie Monster</h2>
+               <h3>MAR 28, 2017, 8:00AM EDT</h3>
+               <article> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</article>
             </div>
             <a>
          </div>
+         
 
          
           </div>
          <aside>
             
               <header>Date</header>
-               <div id="date"></div> 
+               <mark><span class="yo" id="date"></span> <mark>
                 <div id="current"></div> 
-               <header>Recent Posts</header>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
-               <div><a href="https://example.com/"><span>CLICK BAIT!!!</span>Perfect way to waste your time!!</a></div>
+               <header>Popular Posts</header>
+               <div><a href="https://example.com/">Dating Diaries: It was very clear that he had an agenda</a></div>
+               <div><a href="https://example.com/">Fights erupt at pro-Donald Trump rally on California beach</a></div>
+               <div><a href="https://example.com/">Marine Le Pen and Emmanuel Macron face off for the soul of France</a></div>
+               <div><a href="https://example.com/">Perfect way to waste your time!!</a></div>
                <header>Weekly Puzzle</header>
-               <img src="images/puzzle.jpg" width="100%"/>
+               <img src="images/puzzle.gif"/>
                <header>Blog Description</header>
-               <p>Trojan times is amazing because...</p>
+               <p class="des">Trojan times is amazing because...</p>
                <header>Quote of the Week</header>
-               <p class="quote">You're so swag</p>
+               <p class="quote">“The problem is not the problem. The problem is your attitude about the problem”</p>
+               <p class="author">—Captain Jack Sparrow</p>
 
          </aside>
       </div>

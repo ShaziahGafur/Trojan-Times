@@ -17,6 +17,19 @@ section{
   
 }
 
+.art-cont{
+background: rgb(240, 240, 240);
+padding-top: 50px;
+padding-bottom: 80px;
+}
+
+.art-cont h2{
+     color: rgb(0, 111, 164);
+
+}
+
+
+
 article, section{ /*fix this*/
   padding: 0px; 
     text-align: center;
@@ -24,10 +37,16 @@ article, section{ /*fix this*/
 }
 
 .top-section{
-    padding-bottom: 50px;
     margin: 0px;
 
 }
+
+.art-cont a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .tiers{
     width: 100%;
@@ -46,20 +65,18 @@ article, section{ /*fix this*/
  .moitie{
     width: 100%;
     margin-top: 50px;
-         background-color: rgb(26, 94, 134);
+         background-color: rgb(240, 240, 240);
 
 }
  .moitie article{
-     width: 49.85%;
-         background-color: rgb(26, 94, 134);
-     
-
+     width: 49.75%;
+     margin-left: none;
  }
 
  .moitie figure{
 
      background: white;
-     border-color: lightgray;
+        border-color: lightgray;
         border-style: solid;
     border-width: 2px;
 
@@ -78,6 +95,7 @@ article h2{
 
  article h3{
      padding: 15px 10px 20px;
+     color: black;
      
  }
 
@@ -88,8 +106,8 @@ article h2{
 .img1 {
   position: absolute;
   width:100%;
-  width: 100;
-  height: 400px;
+ height: 400px;
+  
     top: 0px;
     z-index: -1;
 
@@ -102,15 +120,30 @@ article h2{
 
 .h1-group{
         color:darkblue;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Amiri', serif;
         margin-top: 100px;
     opacity: 0.5;
      visibility: hidden;
   opacity: 0;        
     }
 
+    .h1-group h1{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .h1-group a{
+        padding:0px;
+        margin: 0px;
+        text-decoration: none;
+    }
+    
+    .h1-group  a:visited {color:white;} 
+.h1-group a:hover {color:white;}
+.h1-group a:active {color:white;}
+
  .mainheadline:hover .h1-group{
-         color: white;
+         color: white !important;
            visibility: visible;
   opacity: 1;
   
@@ -133,6 +166,4 @@ article h2{
         background-color: black;
     }
 
-   article{
-       
-   }
+  

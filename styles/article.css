@@ -1,28 +1,99 @@
 aside{
     float: left;
     width: 25%;
-    background: yellow;
+ /*   background: yellow;*/
 }
+aside div{
+margin-left: 25px;
+    margin-right: 25px; 
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+aside a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+aside  a:visited {color:black;} 
+aside a:hover {color:black;}
+aside a:active {color:black;}
+aside header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: Cambria Math;
+        border-bottom: 2px solid rgb(18, 67, 107) ;
+}
+
 
 .article{
     float: left;
     width: 50%;
-    background: red;
+ /*   background: red;*/
     padding-right: 5%;
     padding-left: 5%;
+}   
+
+.article h1{
+    color: rgb(0, 111, 164);    
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 40px;
+}
+
+.article h2{
+    color: black;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+.article p{
+    font-family: Corbel, sans-serif !important;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+section{
+font-family: Helvetica !important;
+color: rgb(100, 100, 100);
+font-weight: bold;
+font-size: 14px;
+
 }
 .general{
     float: left;
     width: 15%;
-    background: green;
+}
+
+.general h3{
+    color: rgb( 125, 125, 125);
+}
+
+.general h2, .general h3{
+    margin-left: 15px;
+}
+
+.general h3{
+    text-align: left;
+    font-size: 15px;
+    color: rgb( 125, 125, 125)
+    }
+
+    .general h2{
+color: rgb(50, 50, 50);
+font-size: 20px;
+padding-top: 20px;
 }
 
 .content{
     display: inline-block;
     width: 100%;
-    background: purple;
+ /*   background: purple;*/
+    margin-bottom: -5px;
 }
 
-div img{
+.article img{
     width: 100%;
 }
