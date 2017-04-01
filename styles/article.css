@@ -17,9 +17,21 @@ aside a{
     padding: 0px;
     margin: 0px;
 }
-aside  a:visited {color:black;} 
-aside a:hover {color:black;}
+aside div a:hover{
+        text-decoration: underline; 
+
+}
+
+aside  a:visited {
+    color:black;
+    } 
+aside a:hover {
+    color:black;
+
+}
+
 aside a:active {color:black;}
+
 aside header{
     font-size: 20px;
     font-weight: bold;

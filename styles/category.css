@@ -51,7 +51,7 @@ aside header{
 .left{
     width: 40%;
     float: left;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .right{
     width: 50%;
@@ -129,11 +129,17 @@ a{
     font-style: italic;
 }
 
+aside div > a:hover{
+    text-decoration: underline; 
+}
 
 .not-aside:last-child{
     padding-bottom: 0px;
 }
 
+.not-aside a:hover h1{
+    text-decoration: underline;
+}
 .content{
     padding: 0px;
     margin-bottom: -10px;
@@ -154,5 +160,5 @@ mark{
 .cat{
     text-align: left;
     font-size: 50px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
