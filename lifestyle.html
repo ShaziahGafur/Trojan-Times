@@ -50,8 +50,13 @@ function startTime() {
 
     var today = new Date();
     var h = today.getHours();
+    var ampm ="A";
+    if (h>=12)
+        ampm="P";
     if (h>12)
+    {
     	h-=12;
+}
     else if (h==0)
         h=12;
     var mi = today.getMinutes();
@@ -66,7 +71,7 @@ d = n.getDate();
 hello=days[hi];
     
     document.getElementById('date').innerHTML = hello+" " + m + " " +d+", "+ y;
-    document.getElementById('current').innerHTML =h + ":" + mi;
+    document.getElementById('current').innerHTML =h + ":" + mi+" "+ampm+"M";
 
     var t = setTimeout(startTime, 500);
 }
@@ -232,7 +237,7 @@ function checkTime(i) {
                   </a>
                </li>
                <li>
-                  <a href="//facebook.com/quarkmagazine" title="Visit TFSS Trojan Times on Facebook" aria-label="Visit TFSS Trojan Times on Facebook" rel="me" target="_blank">
+                  <a href="https://www.facebook.com/TFSSTrojanTimes" title="Visit TFSS Trojan Times on Facebook" aria-label="Visit TFSS Trojan Times on Facebook" rel="me" target="_blank">
                      <span class="svgIcon svgIcon--facebookFilled svgIcon--25px">
                         <img src="images/facebook.png"  width="50px"/>
                      </span>
@@ -243,7 +248,7 @@ function checkTime(i) {
                </li>
             </ul>
          </div>
-         <p class="top-redirection"><a href="#top"><img src="images/up-arrow.png"/></a> </p>
+         <p class="top-redirection"><a href="#top"><img src="images/up-arrow.svg"/></a> </p>
       </footer>
    </body>
 </html>
