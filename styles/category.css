@@ -69,7 +69,7 @@ color: rgb(50, 50, 50);
     }
 .right article{
     font-family: Corbel;
-    
+
 }
 
 .content h2{
@@ -131,7 +131,7 @@ a{
 }
 
 aside div > a:hover{
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .not-aside:last-child{
@@ -162,4 +162,40 @@ mark{
     text-align: left;
     font-size: 50px;
     margin-left: 30px;
+}
+
+aside img{
+  width: 90%;
+}
+
+@media (max-width: 800px)
+{
+aside{
+  display: none;
+  width: 0%;
+}
+
+.articles{
+  width: 100%;
+}
+}
+
+@media (max-width: 700px){
+  .left{
+
+    width:100%;
+
+
+  }
+.right{
+  width: 100%;
+}
+  h1, h2, h3{
+    margin-left: 15px !important;
+  }
+
+
+  .not-aside article{
+    display: none;
+  }
 }

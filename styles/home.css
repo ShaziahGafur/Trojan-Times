@@ -14,7 +14,7 @@ http://www.vandelaydesign.com/best-magazine-style-websites/ <--column of the mor
 section{
   width:100%;
   height:400px;
-  
+
 }
 
 .art-cont{
@@ -31,7 +31,7 @@ padding-bottom: 80px;
 
 
 article, section{ /*fix this*/
-  padding: 0px; 
+  padding: 0px;
     text-align: center;
     display: inline-block;
 }
@@ -81,7 +81,7 @@ article, section{ /*fix this*/
     border-width: 2px;
 
  }
- 
+
 
  article h2,article h3{
      margin: 15px 30px 30px 30px;
@@ -90,13 +90,13 @@ article, section{ /*fix this*/
 
 article h2{
      padding: 15px 10px 0px;
-     
+
  }
 
  article h3{
      padding: 15px 10px 20px;
      color: black;
-     
+
  }
 
  .mainheadline{
@@ -107,7 +107,7 @@ article h2{
   position: absolute;
   width:100%;
  height: 400px;
-  
+
     top: 0px;
     z-index: -1;
 
@@ -119,12 +119,12 @@ article h2{
 }
 
 .h1-group{
-        color:darkblue;
+        color:white;
 font-family: 'Amiri', serif;
         margin-top: 100px;
     opacity: 0.5;
      visibility: hidden;
-  opacity: 0;        
+  opacity: 0;
     }
 
     .h1-group h1{
@@ -136,9 +136,10 @@ font-family: 'Amiri', serif;
         padding:0px;
         margin: 0px;
         text-decoration: none;
+        color:white;
     }
-    
-    .h1-group  a:visited {color:white;} 
+
+    .h1-group  a:visited {color:white;}
 .h1-group a:hover {color:white;}
 .h1-group a:active {color:white;}
 
@@ -146,7 +147,7 @@ font-family: 'Amiri', serif;
          color: white !important;
            visibility: visible;
   opacity: 1;
-  
+
     }
 
     .miniarticle figure{
@@ -154,7 +155,7 @@ font-family: 'Amiri', serif;
         border-style: solid;
     border-width: 2px;
     background:white;
-        
+
     }
 
     figure a > img{
@@ -166,4 +167,32 @@ font-family: 'Amiri', serif;
         background-color: black;
     }
 
-  
+  @media (max-width: 812px) and (min-height: 769px){
+
+
+.miniarticle article{
+  width: 48%;
+}
+
+.miniarticle article:last-child{
+  width: 70%;
+  margin-left: 14%;
+}
+
+.moitie article{
+  width: 48%;
+}
+}
+
+@media (max-width: 768px){
+
+  .miniarticle article{
+    width: 80%;
+    margin-left: 9%;
+  }
+
+  .moitie article{
+    width: 80%;
+    margin-left: 9%;
+  }
+}

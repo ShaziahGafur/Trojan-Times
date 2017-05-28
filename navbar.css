@@ -1,11 +1,11 @@
-/* common css features*/
+/* common css features*/  
 nav li{
     display: inline-block;
     margin: 0px;
     list-style-type: none;
     padding: 20px;
 
-} 
+}
 
 nav li a{
     padding: inherit;
@@ -18,8 +18,8 @@ nav ul {
     display: inline-block;
     padding: 0px;
 }
-nav { 
-    margin: 0 auto; 
+nav {
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -53,13 +53,13 @@ nav a:hover{
 	/*	  min-height: 60px; */
 		  }
 
-.clear-floated{ 
+.clear-floated{
     width: 100%;
-    clear: both; 
-    height: 1px; 
-     font-size: 10px; 
-     line-height: 1px; 
-     padding-top: 20px; 
+    clear: both;
+    height: 1px;
+     font-size: 10px;
+     line-height: 1px;
+     padding-top: 20px;
 }
 
 
@@ -67,7 +67,7 @@ nav a:hover{
      display: inline;
 
  }
- 
+
  .site-title{
      text-align: center;
  }
@@ -93,12 +93,14 @@ header> h2{
     margin-right: auto;
     margin-left: auto;
 
+
 }
 
 header{
     text-align: center;
 }
-        
+
+
 
 /*.full-width-bg {
    width:100%;
